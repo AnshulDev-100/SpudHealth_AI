@@ -1,4 +1,4 @@
-# 🥔 Potato Disease Classification
+# 🥔SpudHealth AI - Potato Disease Classification
 
 > AI-powered web application for detecting Early Blight, Late Blight, and Healthy potato leaves with **98.82% accuracy**
 
@@ -742,7 +742,7 @@ This project was developed as part of my deep learning and full-stack developmen
 **Anshul Dev**
 
 - GitHub: [@AnshulDev-100](https://github.com/AnshulDev-100)
-- Project Link: [https://github.com/AnshulDev-100/potato-disease-classification](https://github.com/AnshulDev-100/potato-disease-classification)
+- Project Link: [https://github.com/AnshulDev-100/potato-disease-classification](https://github.com/AnshulDev-100/SpudHealth_AI)
 
 ---
 
