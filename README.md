@@ -394,6 +394,37 @@ npm start
 ✅ Frontend will automatically open at: **http://localhost:3000**
 
 ---
+## ⚠️ Node.js v17+ Compatibility Issue
+
+If you encounter an error like `ERR_OSSL_EVP_UNSUPPORTED` or `digital envelope routines::unsupported` when running `npm start`, this is due to OpenSSL 3 changes in Node.js v17+.
+
+### Quick Fix
+
+**Temporary (Current Session Only):**
+```bash
+# Windows PowerShell
+$env:NODE_OPTIONS="--openssl-legacy-provider"
+npm start
+
+# Mac/Linux
+export NODE_OPTIONS="--openssl-legacy-provider"
+npm start
+```
+
+**Permanent Fix:**
+```bash
+# Windows PowerShell (Run as Administrator)
+setx NODE_OPTIONS "--openssl-legacy-provider"
+# Close terminal and open new one
+npm start
+
+# Mac/Linux (Add to ~/.bashrc or ~/.zshrc)
+echo 'export NODE_OPTIONS="--openssl-legacy-provider"' >> ~/.bashrc
+source ~/.bashrc
+npm start
+```
+
+**Alternative:** Downgrade to Node.js v16 LTS for full compatibility.
 
 ## 🎯 Usage
 
