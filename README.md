@@ -57,7 +57,7 @@ The system includes a beautiful, responsive web interface built with React and M
 
 ## 🎬 Demo
 
-![Demo Screenshot](screenshots/demo.gif)
+![Demo Screenshot](screenshots/demo.png)
 
 *Upload a potato leaf image and get instant disease classification*
 
